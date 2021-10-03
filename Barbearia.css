@@ -1,0 +1,136 @@
+
+body{
+  font-size: 15pt;
+}
+
+.caixa{
+  left: 50%;
+}
+
+.caixa h1{
+  text-align: center;
+  color: blue;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  width: 25%;
+}
+
+.menu {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.nav a{
+	 text-transform: uppercase;
+	 color: #000000;
+	 font-size: 22px;
+	 text-decoration: none;
+}
+.cadeira{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cadeira img{
+  width: 25%;
+}
+
+.título-principal{
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+  text-shadow: 2px 2px #ffffff;
+}
+.titulo-principal:first-letter{
+  font-weight: bold;
+}
+.principal{
+  padding: 3em 0;
+  background:#FFFFFF;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.principal strong{
+  font-weight: bold;
+}
+.principal em{
+  font-style: italic;
+}
+
+.itens{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.itens img {
+  width: 50%;
+}
+
+.sobre{
+  width: 700px;
+  margin: 0 10px 0 10px;
+  padding: 15px;
+}
+
+.benefício{
+  padding: 2em 0;
+  display: block;
+}
+.benefício h3{
+  text-align:  center;
+}
+.conteúdo-beneficios{
+  text-align: center;
+}
+.lista-beneficios{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.itens{
+  line-height: 1.5;
+}
+.itens :first-child{
+  font-weight: bold;
+}
+.homem {
+  display: flex;
+  align-items: right;
+  justify-content: center;
+}
+.video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logao img{
+  width: 25%;
+}	 
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright{
+				text-align: center;
+}
+
+
+
+

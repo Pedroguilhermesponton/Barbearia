@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contato-Barbearia Leite</title>
+    
+    <link rel="stylesheet" href="Contato.css">
+</head>
+
+<body>
+  <header>
+    <div class="caixa">
+      <h1><img class="logo" src="Logo.png"></h1>
+      
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="Produtos.html">PRODUTOS</a></li>
+          <li><a href="Contato.html">CONTATO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <form>
+      <label for="nomesobrenome">Nome e Sobrenome</label><br>
+      <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="digite seu nome e sobrenome">
+      <br>
+      
+
+      <label for="email">Email</label><br>
+      <input type="text" id="email" class="input-padrao" required placeholder="seu e-mail @dominio.com">
+      <br>
+      
+      <label for="telefone">Telefone</label><br>
+      <input type="text" id="telefone" class="input-padrao" required placeholder="(XX) XXXX-XXXXX">
+      <br>
+      <br>
+      
+      <label for="mensagem">Mensagem</label><br>
+      <textarea cols="42" rows="10" id="mensagem" class="input-padrao"></textarea>
+      
+      <fieldset>
+        <legend>Como prefere o nosso contato?</legend>
+        
+        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+        
+        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+        
+        <label for="radio-whatssapp"><input type="radio" name="contato" value="whatssapp" id="radio-whatssapp">Whatsapp</label>
+      
+        </fieldset>
+        <fieldset>
+          <legend>
+            <p>Qual horário prefere ser atendido?</p>
+          </legend>
+          <select>
+            <option>MANHÃ</option>
+            <option>TARDE</option>
+            <option>NOITE</option>
+          </select>
+        </fieldset>
+        <br>
+        <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+     
+        <input type="submit" value="ENVIAR FORMULÁRIO" class="enviar">
+    </form>
+  </main>
+  
+  <table>
+    <thead class="thead">
+      
+        <h4 class="centralizado">Horário de atendimento
+      <tr>
+        <tr class="tr">Dia/</tr>
+         <th>Segunda a Sexta-feira.</th>
+        <th>Sábados e feriados.</th>
+        <tr class="tr">Horário</tr>
+        <th>Das 8 horas da manhã as 20 horas da noite</th>
+        <th class=th">Das 8 horas da manhã ao meio dia.</th>
+      </tr>
+    </thead>
+
+  </table>
+  
+  <br>
+  <hr>
+  
+  <footer>
+    <img class="Logao" src="Logao.jpg">
+    <p class="copyright">&copy; Copyright-Barbearia Leite-2021 ®</p>
+  </footer>
+
+
+</body>
+
+</html>

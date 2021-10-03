@@ -1,0 +1,53 @@
+.logo{
+				width: 100vw;
+}
+.checkbox{
+				margin: 20, 0;
+}
+.enviar{
+				width: 100%;
+				padding: 15px 0;
+				background: black;
+				color: white;
+				font-weight: bold;
+				font-size: 18px;
+				border:none;
+				border-radius: 5px;
+				transition: 15 all;
+				cursor: pointer;	
+				margin: 2em 0px;
+}
+.enviar:hover{
+				background: black;
+				transform: scale(1.2);
+}
+.table{
+	    margin: 20px 40px;			
+}
+.nav a{
+      text-transform: uppercase;
+      color: #000000;
+      font-size: 22px;
+      text-decoration: none;
+}
+.Logao{
+				width: 100vw;
+				
+}
+.centralizado{
+			text-align: center;
+			
+}
+.thead{
+			background: #fefefe;
+			color:000000;
+			font-weight: bold;
+}
+.th{
+				border: 1px solid #000000;
+				padding: 8px 15px;	
+				display: flex;
+				justify-content: space-between;
+				text-align: center;
+}
+
